@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="alloc">
+      <UniqueIdentifier>{05ded399-cd1d-4857-bc47-99bbc271d6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="str">
+      <UniqueIdentifier>{f0b0614d-a217-4281-9567-402ac8d5316a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exception">
+      <UniqueIdentifier>{b051635e-a8ac-4484-aa48-c4361777f19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream">
+      <UniqueIdentifier>{39f3f16f-8666-4e66-8284-01b6bca44d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exception\win">
+      <UniqueIdentifier>{27fb24cf-2fea-4ba5-897f-64f4bb3065f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exception\posix">
+      <UniqueIdentifier>{46c56657-9a16-4e14-837c-bbcfb1773b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{dae3ead0-5119-4e5f-98de-92f7965f34b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sysutils">
+      <UniqueIdentifier>{5678fd5e-5ded-402d-9c9b-de07bd80b6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem">
+      <UniqueIdentifier>{8b8cc4f2-3e27-49ec-ae0b-0badb86c8123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc\alloc.h">
+      <Filter>alloc</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc\simpleAlloc.h">
+      <Filter>alloc</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc\stl_alloc.h">
+      <Filter>alloc</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\exc_base.h">
+      <Filter>exception</Filter>
+    </ClInclude>
+    <ClInclude Include="str\str.h">
+      <Filter>str</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonLib_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str\convertToString.h">
+      <Filter>str</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\WinExc.h">
+      <Filter>exception\win</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\stream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="str\multibyte.h">
+      <Filter>str</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\File.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileWin.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="str\StringEncoding.h">
+      <Filter>str</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\MemoryStream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\FixedMemoryStream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\filesystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\StreamBaseEmpty.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alloc\simpleAlloc.cpp">
+      <Filter>alloc</Filter>
+    </ClCompile>
+    <ClCompile Include="str\str.cpp">
+      <Filter>str</Filter>
+    </ClCompile>
+    <ClCompile Include="str\convertToString.cpp">
+      <Filter>str</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\exc_base.cpp">
+      <Filter>exception</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\WinExc.cpp">
+      <Filter>exception\win</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\thread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="str\multibyte.cpp">
+      <Filter>str</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\FileWin.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="str\StringEncoding.cpp">
+      <Filter>str</Filter>
+    </ClCompile>
+    <ClCompile Include="stream\stream.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="stream\MemoryStream.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="stream\FixedMemoryStream.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
